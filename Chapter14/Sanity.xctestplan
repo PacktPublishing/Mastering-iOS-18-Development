@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "9F1946B6-3945-4DA7-BD40-27C49E0FAF5D",
+      "name" : "US",
+      "options" : {
+
+      }
+    },
+    {
+      "id" : "367DE41E-047D-4ACC-A227-7A863A056A9B",
+      "name" : "Europe",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Chapter14.xcodeproj",
+        "identifier" : "9006008E2C352D7400BAFF5C",
+        "name" : "Chapter14Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
