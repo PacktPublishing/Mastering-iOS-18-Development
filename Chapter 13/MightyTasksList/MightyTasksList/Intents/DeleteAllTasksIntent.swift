@@ -7,7 +7,7 @@ struct DeleteAllTasksIntent: AppIntent {
         
         let taskManager = TaskManager.shared
         if taskManager.tasks.count == 0 {
-            return .result(dialog: .init("Forry, there are no tasks to delete"))
+            return .result(dialog: .init("Sorry, there are no tasks to delete"))
         }
         
         try await requestConfirmation(actionName: .go, dialog: IntentDialog("Are you sure you want to delete all your tasks?"))
